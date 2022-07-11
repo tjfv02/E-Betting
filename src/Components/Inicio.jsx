@@ -32,10 +32,10 @@ const handleConoceMas = () => {
           </p>
 
         </div>
-        <div clasName="p-9">
+        <div  clasName="p-9">
           <button 
             type="button"
-            className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded-full"
+            className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded-full "
             onClick={ handleConoceMas }
           >
             Conoce más!
@@ -50,13 +50,13 @@ const handleConoceMas = () => {
             Comprueba todo lo que tenemos para tí
         </h2>
 
-        <div class="flex justify-around">
+        <div class="flex justify-around p-9">
           <div className=" bg-fondo-morado rounded-xl overflow-hidden pt-14 p-9">
             <h2 className=" text-3xl text-center text-color-amarillo">
               Visualiza torneos en vivo
             </h2>
             <br/>
-            <p className="text-white text-center text-2xl"> 
+            <p className="text-white text-center text-2xl p-9"> 
               Cada torneo se encuentra dividido por categoría,
               podrás visualizar cada uno por los 
               cuales realizaste una apuesta.
@@ -68,32 +68,32 @@ const handleConoceMas = () => {
               Analiza como se encuentra tu equipo favorito
             </h2>
             <br/>
-            <p className="text-white text-center text-2xl"> 
+            <p className="text-white text-center text-2xl p-9"> 
               Al finalizar cada torneo se encuentran las estadísticas del progreso
               de cada equipo que ha participado en los torneos. 
             </p>
           </div>
 
-          <div className=" bg-fondo-morado rounded-xl overflow-hidden pt-14 p-9">            
-            <h2 className=" text-3xl text-center text-color-amarillo">
+          <div className=" bg-fondo-morado rounded-xl overflow-hidden pt-14 ">            
+            <h2 className=" text-3xl text-center text-color-amarillo ">
               Puedes ingresar tu wallet de criptomonedas
             </h2>
             <br/>
-            <p className="text-white text-center text-2xl"> 
+            <p className="text-white text-center text-2xl p-9"> 
               Si posees una wallet de criptomonedas, puedes aposter con ellas.
             </p>
             <br/>
-            <p className="text-white text-center text-2xl"> 
+            <p className="text-white text-center text-2xl p-9"> 
               Si en caso no cuentas con una, puedes apostar con tu moneda local.
             </p>
           </div>
 
           <div className=" bg-fondo-morado rounded-xl overflow-hidden pt-14 p-9">
-            <h2 className=" text-3xl text-center text-color-amarillo">
+            <h2 className=" text-3xl text-center text-color-amarillo p-9">
               No te pierdas ningún momento
             </h2>
             <br/>
-            <p className="text-white text-center text-2xl"> 
+            <p className="text-white text-center text-2xl p-9"> 
               Contamos con un calendario en el que puedes cisualizar los próximos eventos,
               e inidicar el de tu interés para que recibas un recordatorio y no te lo pierdas.
             </p>
