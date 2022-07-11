@@ -1,12 +1,20 @@
+import { useState } from "react"
 import Header from "./Components/Header"
 import Inicio from "./Components/Inicio"
-import Presentacion from "./Components/Presentacion"
+import NavBarLogin from "./Components/NavBarLogin"
+
 
 const App = () => {
+
+  const [dummy, setDummy] = useState(false);
   return (
-    <div>
-      <Header />
-      <Inicio />
+    <div className=" mx-auto ">
+      {dummy? <Header/> : <NavBarLogin />}
+      
+      <div className=" mx-auto">
+        <Inicio />
+
+      </div>
     </div>
   )
 }
