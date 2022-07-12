@@ -19,8 +19,9 @@ const handleConoceMas = () => {
           <p>.</p>
           <p>.</p>
           <p>.</p>
-          <h2 className="font-black text-7xl text-left text-color-amarillo pt-14 p-9">
-            E-Betting
+          
+          <h2 className="font-black text-7xl text-left text-color-amarillo pt-20 p-9">            
+            <img src="/src/assets/images/titulo-02.png" className="w-2/5"></img>
           </h2>
 
           <p className="text-3xl mt-5 text-left text-white mb-10 p-9">
@@ -126,10 +127,6 @@ const handleConoceMas = () => {
         <Footer/>
       </footer>
     </div>
-
-
-    
-
   )
 }
 

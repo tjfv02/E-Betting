@@ -1,5 +1,7 @@
-import { useState } from "react"
-import Header from "./Components/Header"
+import React, { Fragment, useEffect,useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+// import Header from "./Components/Header"
 import Inicio from "./Components/Inicio"
 import NavBarLogin from "./Components/NavBarLogin"
 
@@ -20,7 +22,15 @@ const App = () => {
     <div className=" mx-auto ">
       {dummy? <Header/> : <NavBarLogin />}
       
-      <Inicio/>
+      <Router>
+        <Routes>
+        <Route exact path='/' element={<Inicio />} />
+        <Route exact path='/register' element={<Register />} />
+        <Route exact path='/login' element={<Login />} />            
+        <Route exact path='/aboutus' element={<Nosotros />} />
+        <Route exact path='/calendar' element={<Calendario />} />    
+        </Routes>
+      </Router>
    
     </div>
   )

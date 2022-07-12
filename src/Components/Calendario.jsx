@@ -10,7 +10,7 @@ const Calendario = () => {
 
       <div className="grid grid-cols-3 gap-4 pt-36 px-10 py-10 mx-10 my-10">
         
-        <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img class="rounded-t-lg" src="/src/assets/carousel/Calendario Valorant.jpg" alt="" />
             </a>
