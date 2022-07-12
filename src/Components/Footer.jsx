@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 const Footer = () => {
   return (
     <footer className="text-center">
@@ -21,8 +20,8 @@ const Footer = () => {
                 <p className="text-white text-lg first-letter:mx-auto hover:bg-indigo-800 cursor-pointer transition-colors p-5">Acerca de nosotros</p>
             </div>
         </div>
+export default Header
     </footer>
   )
 }
-
 export default Footer
