@@ -69,6 +69,9 @@ const Calendario = () => {
 
 
       </div>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   )
 }

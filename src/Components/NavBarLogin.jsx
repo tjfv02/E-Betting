@@ -1,3 +1,7 @@
+import { Link, Navigate } from 'react-router-dom';
+import Login from './Login';
+import Register from './Register';
+
 const NavBarLogin = () => {
 
     const prueba= () => {
@@ -8,8 +12,7 @@ const NavBarLogin = () => {
 
         console.log('SI JALA');
         return(
-            <body>
-            </body>
+            <Register/>
         )
     }
 
@@ -19,14 +22,13 @@ const NavBarLogin = () => {
   return (
     <header className="text-center fixed top-0 left-0 right-0">
 
-        
-
         <div class="grid grid-cols-12 bg-fondo-morado">
             <div className="col-span-1">
                 <img class="w-24 h-24 rounded-full " src="/src/assets/images/logo_f.png" alt="" width="384" height="512"/>
             </div>
 
             <div className="col-span-2" onClick={ prueba }>
+                
                 <p className="text-white text-lg mx-auto hover:text-color-amarillo hover:bg-fondo-morado-2 cursor-pointer transition-colors p-8">
                     Calendario
                 </p>
