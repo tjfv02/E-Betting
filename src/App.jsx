@@ -20,9 +20,9 @@ const App = () => {
 
   return (
     <div className=" mx-auto ">
-      {dummy? <Header/> : <NavBarLogin />}
       
       <Router>
+      {dummy? <Header/> : <NavBarLogin />}
         <Routes>
           <Route exact path='/' element={<Inicio />} />
           <Route exact path='/register' element={<Register />} />
