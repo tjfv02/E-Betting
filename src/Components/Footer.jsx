@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="text-center ">
@@ -11,13 +12,19 @@ const Footer = () => {
                 <p className="text-white text-lg mx-auto transition-colors p-5">2022 &copy; Sharklabs | All rights reserved</p>
             </div>
             <div>
-                <p className="text-white text-lg mx-auto hover:bg-indigo-800 cursor-pointer transition-colors p-5">Inicio</p>
+                <Link to ="/">
+                    <p className="text-white text-lg mx-auto hover:bg-indigo-800 cursor-pointer transition-colors p-5">Inicio</p>
+                </Link>
             </div>
             <div>
-                <p className="text-white text-lg mx-auto hover:bg-indigo-800 cursor-pointer transition-colors p-5">Calendario</p>
+                <Link to="/calendar">
+                    <p className="text-white text-lg mx-auto hover:bg-indigo-800 cursor-pointer transition-colors p-5">Calendario</p>
+                </Link>
             </div>
             <div>
+                <Link to ="/aboutus">
                 <p className="text-white text-lg first-letter:mx-auto hover:bg-indigo-800 cursor-pointer transition-colors p-5">Acerca de nosotros</p>
+                </Link>
             </div>
         </div>
     </div>

@@ -1,5 +1,6 @@
 import Footer from "./Footer"
-import Presentacion from "./Presentacion"
+
+import { Link, Navigate } from 'react-router-dom';
 
 const Inicio = () => {
 
@@ -34,16 +35,13 @@ const handleConoceMas = () => {
             Vive el gaming intensamente con los 
             mejores torneos y lo último de los e-Sports.
           </p>
-
-          <div  clasName="flex space-x-2 justify-center">
-            <button 
-              type="button"
-              className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded-full "
-              onClick={ handleConoceMas }
-            >
-              Conoce más!
-            </button>
+          <div className="flex space-x-2 justify-center pb-6">
+            <div className="buttons">
+              <Link to="/aboutus" className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded-full">Conoce más!</Link>
+            </div>
           </div>
+
+          
         </div>
        
     
@@ -55,7 +53,7 @@ const handleConoceMas = () => {
             Comprueba todo lo que tenemos para tí
         </h2>
 
-        <div class="flex justify-around p-9">
+        <div class="grid grid-cols-4 justify-around p-9 gap-x-12">
           <div className=" bg-fondo-morado rounded-xl overflow-hidden pt-14 p-9">
             <h2 className=" text-3xl text-center text-color-amarillo">
               Visualiza torneos en vivo
@@ -108,13 +106,9 @@ const handleConoceMas = () => {
 
         </div>
         <div class="flex space-x-2 justify-center pb-6">
-          <button 
-            type="button"
-            className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded-full "
-            onClick={ handleApuesta }
-          >
-            Apuesta aquí!
-          </button>
+          <div className="buttons">
+            <Link to="/seleccionpartido" className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded-full">Apuesta aquí!</Link>
+          </div>
         </div>
 
 
