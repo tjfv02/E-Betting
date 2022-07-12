@@ -11,7 +11,7 @@ const nivelUsuario = 'Pro'
 
             <div className="grid grid-cols-7">
                 <div className="col-span-1">
-                    <img class="w-24 h-24 rounded-full " src="/src/assets/images/logo_Mesa de trabajo 1.png" alt="" width="384" height="512"/>
+                    <img class="w-24 h-24 rounded-full " src="/src/assets/images/Logo.png" alt="" width="384" height="512"/>
                 </div>
 
                 <div className="col-span-5 p-3">

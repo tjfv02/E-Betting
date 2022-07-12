@@ -110,7 +110,11 @@ const handleConoceMas = () => {
           Apuesta aquí!
         </button>
       </div>
+      
     </div>
+
+
+    
 
   )
 }

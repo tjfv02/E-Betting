@@ -1,5 +1,3 @@
-import Prueba from "./Prueba";
-
 const NavBarLogin = () => {
 
     const prueba= () => {
@@ -11,7 +9,6 @@ const NavBarLogin = () => {
         console.log('SI JALA');
         return(
             <body>
-                <Prueba/>
             </body>
         )
     }
@@ -26,7 +23,7 @@ const NavBarLogin = () => {
 
         <div class="grid grid-cols-12 bg-fondo-morado">
             <div className="col-span-1">
-                <img class="w-24 h-24 rounded-full " src="/src/assets/images/logo_Mesa de trabajo 1.png" alt="" width="384" height="512"/>
+                <img class="w-24 h-24 rounded-full " src="/src/assets/images/Logo.png" alt="" width="384" height="512"/>
             </div>
 
             <div className="col-span-2" onClick={ prueba }>
