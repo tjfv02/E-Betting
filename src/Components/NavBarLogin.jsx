@@ -38,7 +38,7 @@ const NavBarLogin = () => {
                 <p className="text-white text-lg mx-auto hover:text-color-amarillo hover:bg-fondo-morado-2 cursor-pointer transition-colors p-8">Acerca de Nosotros</p>
             </div>
             <div className="col-span-2 p-7">
-            <button 
+                <button 
                     type="button"
                     className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded "
                     onClick={ handleLogin }
@@ -60,6 +60,7 @@ const NavBarLogin = () => {
             </div>
         </div>
     </header>
+    
   )
 }
 

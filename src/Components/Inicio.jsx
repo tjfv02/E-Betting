@@ -1,8 +1,11 @@
+import Footer from "./Footer"
 import Presentacion from "./Presentacion"
 
 const Inicio = () => {
 
+const handleApuesta = () => {
 
+}
 const handleConoceMas = () => {
 
 }
@@ -31,16 +34,17 @@ const handleConoceMas = () => {
             mejores torneos y lo último de los e-Sports.
           </p>
 
+          <div  clasName="flex space-x-2 justify-center">
+            <button 
+              type="button"
+              className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded-full "
+              onClick={ handleConoceMas }
+            >
+              Conoce más!
+            </button>
+          </div>
         </div>
-        <div  clasName="p-9">
-          <button 
-            type="button"
-            className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded-full "
-            onClick={ handleConoceMas }
-          >
-            Conoce más!
-          </button>
-        </div>
+       
     
         
       </div>
@@ -102,15 +106,25 @@ const handleConoceMas = () => {
           
 
         </div>
-        <button 
-          type="button"
-          className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded-full "
-          onClick={ handleConoceMas }
-        >
-          Apuesta aquí!
-        </button>
+        <div class="flex space-x-2 justify-center pb-6">
+          <button 
+            type="button"
+            className="py-2 px-10 bg-color-amarillo hover:bg-pink-600 text-white font-bold uppercase rounded-full "
+            onClick={ handleApuesta }
+          >
+            Apuesta aquí!
+          </button>
+        </div>
+
+
+        <div>
+
+        </div>
+        
       </div>
-      
+      <footer>
+        <Footer/>
+      </footer>
     </div>
 
 

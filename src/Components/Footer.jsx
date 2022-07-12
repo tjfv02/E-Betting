@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 const Footer = () => {
   return (
     <div className="text-center ">
@@ -24,5 +23,4 @@ const Footer = () => {
     </div>
   )
 }
-
 export default Footer
