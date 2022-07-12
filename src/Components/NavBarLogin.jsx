@@ -1,3 +1,5 @@
+import Login from "./Login";
+
 const NavBarLogin = () => {
 
     const prueba= () => {
@@ -9,6 +11,7 @@ const NavBarLogin = () => {
         console.log('SI JALA');
         return(
             <body>
+                <Login/>
             </body>
         )
     }
